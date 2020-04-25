@@ -28,7 +28,7 @@ pipeline {
             steps {
                 echo '=== Building Petclinic Docker Image ==='
                 script {
-                    app = docker.build("mayamesh223/petclinic-spinnaker-jenkins")
+                    app = docker.build("maya223/petclinic-spinnaker-jenkins")
                 }
             }
         }
